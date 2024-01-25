@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color:#000000;
+    color:#f6f6f6;
+}
+.titulo-destaque{
+    color:#00E098;
+}
+.destaque{
+ color:crimson;
+}
+.cabeçalho{
+    padding: 2% 0% 0% 15%;
+}
+.cabeçalho_menu{
+    display: flex;
+    gap: 80px;
+}
+.cabeçalho_menu_link{
+    color: #22D4FD;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.principal{
+    gap: 82px;
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    }
+    
+    .texto1{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .texto1__titulo{
+        font-family: 'Krona One', sans-serif;
+        font-size: 2.25rem;
+    }
+    .texto1__paragrafo{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
+       
+    }
+    .image1{
+        width: 50%;
+    }
+    .botao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 32px;
+    }
+    .subh2{
+        font-family: 'Krona One', sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+}    
+    .link{
+       display: flex;
+       justify-content:center ;
+       gap: 16px;
+       border: 2px solid #22D4FD;
+        width: 50%;
+        text-align: center;
+        border-radius: 16px;
+        font-size: 1.5rem;
+        padding: 21.5px 0;
+        text-decoration: none;
+        color: #f6f6f6;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .link:hover{
+        background-color: #272727;
+    }
+
+    .rodape{
+        padding: 24px;
+        color: #000000;
+        background-color: #22D4FD;
+        text-align: center;
+       font-family: 'Montserrat', sans-serif;
+       font-size: 1.5rem;
+       font-weight: 400;
+    }
+
+    @media (max-width: 1200px){
+       
+        .cabeçalho{
+            padding: 10%;
+        }
+        .cabeçalho_menu{
+            justify-content: center;
+        }
+        .principal{
+            flex-direction: column-reverse;
+            padding: 5%;
+        }
+        .texto1{
+            width: auto;
+        }
+    }
